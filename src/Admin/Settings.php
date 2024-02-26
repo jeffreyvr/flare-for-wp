@@ -13,15 +13,14 @@ class Settings
     {
         add_action('admin_menu', [$this, 'register']);
 
-        // apply_filters('wp_settings_new_options_'.$option->implementation->get_name(), $option->implementation->sanitize($value), $option->implementation);
-        //
-
         add_filter('wp_settings_new_options_flare_api_key', [$this, 'encryptApiKey']);
     }
 
     public function register()
     {
         $settings = new WPSettings(__('Flare for WP'));
+
+        $settings->set_menu_parent_slug('tools.php');
 
         $tab = $settings->add_tab(__('General', 'flareforwp'));
 
