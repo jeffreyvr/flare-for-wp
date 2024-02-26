@@ -1,4 +1,4 @@
-FlareForWp
+# Flare For WordPress
 
 This plugin integrates the [Flare](https://flareapp.io) error tracking service with WordPress.
 
