@@ -17,4 +17,4 @@ This plugin integrates the Flare (https://flareapp.io) error tracking service wi
 
 1. Install the plugin from your WordPress admin, or upload and install the plugin folder to your plugins directory (e.g. /wp-content/plugins/)
 2. Activate the plugin
-3. Go to FlareForWp > Settings and configure the options
+3. Go to Tools > Flare and set the api key
