@@ -6,6 +6,6 @@ All notable changes to this plugin will be documented in this file.
 
 -
 
-## 0.1.0 - YYYY-MM-DD
+## 0.1.0 - 27-02-2024
 
 - init release
